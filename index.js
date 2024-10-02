@@ -20,5 +20,9 @@ function toggleCard() {
   }
 
 
+function togglePerson3() {
+    var content = document.getElementById("personContent3");
+    content.style.maxHeight = content.style.maxHeight ? null : content.scrollHeight + "px";
+  }
 
 
