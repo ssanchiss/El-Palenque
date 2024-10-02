@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>El palenque-Servicos</title>
+</head>
+<body>
+  <div class="video-background"></div>
+  <video autoplay muted loop id="background-video">
+      <source src="../img/video-de-fondo.mp4" type="video/mp4">
+      Tu navegador no soporta videos HTML5.
+  </video>
+</div>
+    <header>
+        <div class="container-logo">
+            <img src="../img/logo.png" alt="" class="logo">
+         </div>
+            <div class="container-titulo">
+                <h1 class="titulo">Veterinaria "El palenque"</h1>
+            </div>
+            <div class="navbar">
+                <a href="./servicios.html">Servicios</a>
+                <a href="../index.html"><img class="img-navbar" src="../img/casa.png" alt="Página principal"></a>
+                <a href="./productos.html">Productos</a>
+          </div>
+    </header>
+    <main>
+        <a href="https://wa.me/542223431524?text=Hola! Me comunico dede la pagina web... tengo una consulta sobre: " class="whatsapp-button" target="_blank">
+            <img src="../img/whatsapp-logo-whatsapp-icon-whatsapp-transparent-free-png.webp" alt="WhatsApp">
+        </a>
+            <div class="card-container-servicios">
+              <div class="card-servicios">
+                <div class="card-header-servicios" onclick="toggleCard('cardContent-historia-servicios')">Gestión</div>
+                <div class="card-content-servicios" id="cardContent-historia-servicios">
+                  <p>Ofrecemos una gestión integral en la cría de animales, enfocándonos en la salud y el bienestar de los rodeos. Nuestro servicio incluye asesoramiento especializado en alimentación, manejo reproductivo, control de enfermedades y optimización de la producción. Trabajamos de la mano con los criadores para implementar prácticas sostenibles y efectivas, asegurando el máximo rendimiento y calidad en la cría de ganado.</p>
+                  <img src="../img/foto-motos.jpg" alt="imagen- dgestion">
+                  
+                </div>
+              </div>
+          
+              <div class="card-servicios">
+                <div class="card-header-servicios" onclick="toggleCard('cardContent-servicios')">Reproducción</div>
+                <div class="card-content-servicios" id="cardContent-servicios">
+                  <p>Ofrecemos una gestión integral en la cría de animales, abarcando todas las etapas del proceso reproductivo. Realizamos trabajos de inseminación artificial y protocolos de IATF (Inseminación Artificial a Tiempo Fijo), asegurando el mejor manejo reproductivo. Nuestro equipo está capacitado para realizar tactos y seguimientos precisos, garantizando la salud y el bienestar de los animales. Nos comprometemos a optimizar cada etapa de la reproducción, apoyando a los criadores en el logro de resultados efectivos y sostenibles.</p>
+                  <img src="../img/trabajo-re.jpg" alt="imagen de reproduccion">
+                </div>
+              </div>
+          
+              <div class="card-servicios">
+                <div class="card-header-servicios" onclick="toggleCard('cardContent-equipo-servicios')">Sanidad</div>
+                <div class="card-content-servicios" id="cardContent-equipo-servicios">
+                  <p>Realizamos trabajos de sanidad animal especializados, incluyendo sangrados y raspajes de toros, entre otros procedimientos. Nuestro objetivo es garantizar la salud y el bienestar de los animales, implementando prácticas de sanidad efectivas y seguras. Contamos con un equipo de profesionales capacitados que se encargan de realizar un monitoreo constante y exhaustivo para prevenir y controlar enfermedades en el ganado.</p>
+                  <img src="../img/trabajo-reproduccin.jpg" alt="iamgen de serviocios">
+                </div>
+              </div>
+          
+              <div class="card-servicios">
+                <div class="card-header-servicios" onclick="toggleCard('cardContent-proyectos-servicios')">Urgencias</div>
+                <div class="card-content-servicios" id="cardContent-proyectos-servicios">
+                  <p>Nuestros veterinarios están disponibles las 24 horas del día para atender cualquier urgencia médica que pueda surgir. Entendemos que la salud de tus animales es una prioridad, por lo que ofrecemos atención inmediata y profesional en cualquier momento. No dudes en contactarnos si necesitas asistencia urgente; estamos aquí para cuidar de tus animales en todo momento.</p>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="whatsapp-button-container-servicios">
+                <a href="https://wa.me/542223431524?text=Hola! Me comunico dede la pagina web... Estaba interesado en coordinar un trabajo! " target="_blank" class="whatsapp-button-servicios">
+             Coordina tu trabajo Aquí
+                </a>
+              </div>
+
+
+
+    </main>
+    <footer>
+      <div class="container-footer">
+        <p>&copy; 2024 El palenque. Todos los derechos reservados.</p>
+        <img src="../img/logo.png" alt="" class="img-footer">
+    </div>
+
+    </footer>
+    <script src="../servicios.js"></script>
+</body>
+</html>

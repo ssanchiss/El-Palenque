@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>El palenque-Productos</title>
+</head>
+<body>
+  <div class="video-background"></div>
+  <video autoplay muted loop id="background-video">
+      <source src="../img/video-de-fondo.mp4" type="video/mp4">
+      Tu navegador no soporta videos HTML5.
+  </video>
+</div>
+    <header>
+        <div class="container-logo">
+            <img src="../img/logo.png" alt="" class="logo">
+         </div>
+            <div class="container-titulo">
+                <h1 class="titulo">Veterinaria "El palenque"</h1>
+            </div>
+            <div class="navbar">
+                <a href="./servicios.html">Servicios</a>
+                <a href="../index.html"><img class="img-navbar" src="../img/casa.png" alt="Página principal"></a>
+                <a href="./productos.html">Productos</a>
+          </div>
+
+    </header>
+    <main>
+        <a href="https://wa.me/542223431524?text=Hola! Me comunico dede la pagina web... tengo una consulta sobre: " class="whatsapp-button" target="_blank">
+            <img src="../img/whatsapp-logo-whatsapp-icon-whatsapp-transparent-free-png.webp" alt="WhatsApp">
+        </a>
+        <div class="card-container-servicios">
+            <div class="card-servicios">
+              <div class="card-header-servicios" onclick="toggleCard('cardContent-historia-servicios')">Sanidad Animal</div>
+              <div class="card-content-servicios" id="cardContent-historia-servicios">
+                <p>Ofrecemos una amplia variedad de medicamentos para la sanidad animal, especializados en bovinos, pero también contamos con productos para equinos, caninos y otras especies. Cuidamos de la salud de tus animales con soluciones efectivas y de calidad</p>
+              </div>
+            </div>
+        
+            <div class="card-servicios">
+              <div class="card-header-servicios" onclick="toggleCard('cardContent-servicios')">Alimentos</div>
+              <div class="card-content-servicios" id="cardContent-servicios">
+                <p>Vendemos una amplia gama de alimentos para animales: raciones en grandes cantidades, mezcla, alimentos para perros y gatos, fardos, sustitutos lácteos y mucho más. Todo lo que necesitas para asegurar una alimentación balanceada y saludable para tus animales.</p>
+              </div>
+            </div>
+        
+            <div class="card-servicios">
+              <div class="card-header-servicios" onclick="toggleCard('cardContent-equipo-servicios')">Materiales </div>
+              <div class="card-content-servicios" id="cardContent-equipo-servicios">
+                <p>Ofrecemos materiales de campo de la mejor calidad, como postes de quebracho e itín, varillas, vigas, alambres tejidos, caños, molinos, bebederos y más. Todo lo que necesitas para equipar tu campo con productos duraderos y confiables</p>
+              </div>
+            </div>
+        
+            <div class="card-servicios">
+              <div class="card-header-servicios" onclick="toggleCard('cardContent-proyectos-servicios')">Ferreteria</div>
+              <div class="card-content-servicios" id="cardContent-proyectos-servicios">
+                <p>Contamos con una gran variedad de artículos de ferretería tanto para el campo como para otros usos, incluyendo repuestos de molinos, acoples, picanas y más. Proveemos todo lo necesario para tus trabajos, con productos confiables y de calidad</p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="whatsapp-button-container-servicios">
+              <a href="https://wa.me/542223431524?text=Hola! Me comunico dede la pagina web... Estaba interesado en coordinar un trabajo! " target="_blank" class="whatsapp-button-servicios">
+           Coordina tu trabajo Aquí
+              </a>
+            </div>
+        
+
+    </main>
+    <footer>
+        <div class="container-footer">
+            <p>&copy; 2024 El palenque. Todos los derechos reservados.</p>
+            <img src="../img/logo.png" alt="" class="img-footer">
+        </div>
+
+    </footer>
+    <script src="../productos.js"></script>
+</body>
+</html>
